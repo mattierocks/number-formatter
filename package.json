@@ -1,33 +1,36 @@
 {
-  "name": "matties-number-formatter",
-  "version": "0.1.0",
-  "engines": {
-    "node": ">=4.2.4"
-  },
-  "description": "Number formatter",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --reporter nyan"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mattierocks/number-formatter.git"
-  },
-  "author": "Mattie Fuller <mattie@mattiefuller.io> (http://mattiefuller.io)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mattierocks/number-formatter/issues"
-  },
-  "homepage": "https://github.com/mattierocks/number-formatter#readme",
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "keywords": [
-    "Number",
-    "formatter"
-  ]
+    "name": "matties-number-formatter",
+    "version": "0.1.0",
+    "engines": {
+        "node": ">=4.2.4"
+    },
+    "description": "Number formatter",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --reporter nyan",
+        "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R nyan test/*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mattierocks/number-formatter.git"
+    },
+    "author": "Mattie Fuller <mattie@mattiefuller.io> (http://mattiefuller.io)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mattierocks/number-formatter/issues"
+    },
+    "homepage": "https://github.com/mattierocks/number-formatter#readme",
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "coveralls": "^3.0.0",
+        "istanbul": "^0.4.5",
+        "mocha": "^4.0.1"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "keywords": [
+        "Number",
+        "formatter"
+    ]
 }
