@@ -7,7 +7,7 @@
     "description": "Number formatter",
     "main": "index.js",
     "scripts": {
-        "test": "node_modules/.bin/mocha --reporter spec",
+        "test": "mocha --reporter spec",
         "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
     },
     "repository": {
@@ -25,9 +25,5 @@
         "coveralls": "^3.0.0",
         "istanbul": "^0.4.5",
         "mocha": "^4.0.1"
-    },
-    "keywords": [
-        "Number",
-        "formatter"
-    ]
+    }
 }
