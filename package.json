@@ -26,9 +26,6 @@
         "istanbul": "^0.4.5",
         "mocha": "^4.0.1"
     },
-    "directories": {
-        "test": "test"
-    },
     "keywords": [
         "Number",
         "formatter"
